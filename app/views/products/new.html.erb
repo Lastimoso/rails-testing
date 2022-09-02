@@ -1,0 +1,7 @@
+<h1>Crear nuevo producto</h1>
+
+<%= simple_form_for @product do |f| %>
+  <%= f.input :name %>
+  <%= f.input :tagline %>
+  <%= f.submit "Crear producto" %>
+<% end %>
